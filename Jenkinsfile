@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_NAME = 'althaffrl/ngueng_rent'
-        REGISTRY_CREDENTIALS = 'dockerhub-credentialsngueng'
+        REGISTRY_CREDENTIALS = 'dockerhub-credentials2'
     }
 
     stages {
